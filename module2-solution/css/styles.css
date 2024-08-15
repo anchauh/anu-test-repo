@@ -23,13 +23,25 @@
   width: calc(33.33% - 20px);
 }
 
-.box h2 {
+/*.box h2 {
   margin-top: 0;
   float: right;
 }
 
 .box p {
   margin-bottom: 20px;
+}*/
+
+.box h2 {
+  margin-top: 0;
+  float: right;
+  /*margin-right: -100px;*/
+  margin-bottom: 20px; /* Increased margin after <h2> */
+}
+
+.box p {
+  margin-top: 30px;
+  margin-bottom: 30px; /* Increased margin after <p> */
 }
 
 /* Desktop view (992px - 1199px) */
